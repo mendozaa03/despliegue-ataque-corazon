@@ -51,7 +51,6 @@ background: linear-gradient(90deg, #0B1A1E 0%, rgba(11,26,30,0) 30%, rgba(11,26,
 vector-effect:non-scaling-stroke; filter: drop-shadow(0 0 4px var(--traza)); }
 .desplaza { animation: desplaza var(--vuelta) linear infinite; }
 @keyframes desplaza { from { transform:translateX(0); } to { transform:translateX(-600px); } }
-@media (prefers-reduced-motion: reduce) { .desplaza, .pulso { animation:none; } }
 
 /* Historia clínica (carpetas manila) */
 .carpeta { background:var(--manila); border-radius:0 10px 10px 10px; padding:18px 20px 16px; position:relative;
